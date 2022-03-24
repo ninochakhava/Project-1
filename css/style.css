@@ -40,3 +40,49 @@ a:hover{
 .youtube{
     padding-left: 30px;
 }
+/* newses page */
+
+/* articles block */
+.articles-block{
+    padding-left: 30px;
+}
+.article{
+    margin-top: 40px;
+}
+.date-block{
+    background: #3D58A6;
+    display: inline-block;
+    font-size: 48px;
+    color: #fff;
+    padding: 5px;
+}
+.month{
+    color: #3D58A6;
+    font-size: 26px;
+    margin: 10px auto;
+}
+.article-title{
+    font-size: 28px;
+    margin: 15px auto 20px auto;
+}
+.article-img{
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.text p{
+    padding-bottom: 25px;
+}
+.text p:last-child{
+    padding-bottom: 0;
+}
+/* end articles block */
+
+/* end newses page */
+/* contact page */
+.contact-section{
+    margin: 150px auto;
+}
+.text-center{
+    text-align: center;
+}
+/* end contact page */

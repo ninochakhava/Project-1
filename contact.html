@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css"/>
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <a href="index.html">
             <img class="logo" src="img/logo.svg" alt="logo">
         </a>
@@ -32,11 +33,31 @@
             </ul>
         </nav>
     </header>
-    <footer>
-        <a href="https://www.facebook.com/" target="_blank">
+    <section class="contact-section"></section>
+        <div class="contact text-center">საკონტაქტო ინფორმაცია</div>
+        <ul class="contact-ul">
+            <li class="contact-li text-center"> 
+                <span class="contact-span">მისამართი</span>
+                <a class="contact a" target="blank" href="https://www.google.com/maps/place/30+Vasil+Petriashvili+Street,+T'bilisi/@41.7054782,44.7773202,17z/data=!3m1!4b1!4m5!3m4!1s0x40440cce3a01fef7:0x2a75ae2128072d6!8m2!3d41.7054782!4d44.7795089">პეტრიაშვილის ქ. 30</a>
+            </li>
+        </ul>
+        <ul class="contact-ul">
+            <li class="contact-li text-center"> 
+                <span class="contact-span">ტელ</span>
+                <a class="contact a" href="tel:+99532222222">+995 32 222 222</a>
+            </li>
+        </ul>
+        <ul class="contact-ul">
+            <li class="contact-li text-center"> 
+                <span class="contact-span">ელ. ფოსტა</span>
+                <a class="contact a" href="mailto:chakhava@gmail.com">mail@gmail.com</a>
+            </li>
+        </ul>
+    <footer class="footer">
+        <a class="footer-social-list fb" href="https://www.facebook.com/" target="_blank">
             <img class="social-icon" src="img/fb.svg" alt="facebook">
         </a>
-        <a href="https://www.youtube.com/" target="_blank">
+        <a class="footer-social-list youtube" href="https://www.youtube.com/" target="_blank">
             <img class="social-icon" src="img/yotube.svg" alt="youtube">
         </a>
     </footer>
